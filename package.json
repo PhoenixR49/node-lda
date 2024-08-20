@@ -13,7 +13,9 @@
   },
   "main": "./lib",
   "dependencies": {
-  "stem-porter": "*"
+    "lda": "file:",
+    "stem-porter": "*",
+    "stopwords-iso": "^1.1.0"
   },
   "engines": {
     "node": ">= 0.8.x"
